@@ -1,0 +1,6 @@
+#!/bin/bash
+git checkout release
+git checkout developer
+git branch -a
+git merge master
+git push -u developer
